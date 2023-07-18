@@ -1,0 +1,210 @@
+.dashBody{
+    background: url('../images/homeBg.png') no-repeat center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.waveBg{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.upperNav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4vw;
+    padding-top: 4vh;
+}
+.logo{
+    width: 6vw;
+}
+.navTitle{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.navRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5vw;
+    padding-top: 4vh;
+    gap: 4vw;
+}
+.workerName{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F5F5F5;
+
+}
+.workerBox{
+    width: 15vw;
+    height: 6vh;
+    background: #737373;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logOutBtn{
+    width: 3vw;
+}
+.logOutBtn:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.logOutBtn:active{
+    transform: scale(0.95);
+}
+.lowerBody{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 5vh;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+    padding-left: 10vw;
+}
+.rightSide{
+    padding-right: 15vw;
+}
+.productTitle{
+    width: 15vw;
+    height: 6vh;
+    background: #737373;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F5F5F5;
+}
+.productList{
+    box-sizing: border-box;
+    width: 40vw;
+    height: 40vh;
+    background: #E2C7A2;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+.customerName{
+    width: 35vw;
+    height: 6vh;
+    background: #E2C7A2;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    text-align: center;
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35vw;
+    z-index: 100;
+}
+.divBtn{
+    width: 12vw;
+    height: 6vh;  
+    background: #737373;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F5F5F5;
+}
+.divBtn:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.divBtn:active{
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    
+}
+.styled-table th{
+    text-decoration: underline;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.productList{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+.productList::-webkit-scrollbar {
+    display: none;
+  }
